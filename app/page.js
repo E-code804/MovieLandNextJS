@@ -9,7 +9,7 @@ const apiURL = "http://www.omdbapi.com/?i=tt3896198&apikey=754cbab2";
 
 export default function Home() {
   const [movies, setMovies] = useState([]);
-  const [movieTitle, setMovieTitle] = useState("");
+  const [movieTitle, setMovieTitle] = useState("Batman");
 
   useEffect(() => {
     getMovies("Batman");
