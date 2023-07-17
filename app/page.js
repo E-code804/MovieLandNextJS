@@ -5,7 +5,7 @@ import Image from "next/image";
 import SearchIcon from "./search.svg";
 import MovieCard from "./components/MovieCard";
 
-const apiURL = "http://www.omdbapi.com/?i=tt3896198&apikey=754cbab2";
+const apiURL = "https://www.omdbapi.com/?i=tt3896198&apikey=754cbab2";
 
 export default function Home() {
   const [movies, setMovies] = useState([]);

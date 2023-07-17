@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
 // API url
-const apiURL = "http://www.omdbapi.com/?i=tt3896198&apikey=754cbab2";
+const apiURL = "https://www.omdbapi.com/?i=tt3896198&apikey=754cbab2";
 
 const MoviePage = () => {
   const { movieTitle } = useParams();
