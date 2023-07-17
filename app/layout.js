@@ -6,6 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "MovieLand",
   description: "Remaking MovieLand in Next.JS",
+  httpEquiv: "Content-Security-Policy",
+  content: "upgrade-insecure-requests",
 };
 
 export default function RootLayout({ children }) {
