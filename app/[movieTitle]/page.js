@@ -1,8 +1,8 @@
 "use client";
 
 // React imports
-import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 // API url
 const apiURL = "https://www.omdbapi.com/?i=tt3896198&apikey=754cbab2";

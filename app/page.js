@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 
 import Image from "next/image";
-import SearchIcon from "./search.svg";
 import MovieCard from "./components/MovieCard";
+import SearchIcon from "./search.svg";
 
 const apiURL = "https://www.omdbapi.com/?i=tt3896198&apikey=754cbab2";
 
@@ -57,7 +57,7 @@ export default function Home() {
             key={movie.imdbID}
             year={movie.Year}
             poster={movie.Poster}
-            title={movie.Title}
+            title={movie.Title.replace(":", "")}
             type={movie.Type}
           />
         ))}
